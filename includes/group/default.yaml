@@ -15,4 +15,4 @@ weather:
 steam:
   name: 'Steam'
   entities:
-    - sensor.steam_account1
+    - !secret steam_account_sensor
