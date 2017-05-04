@@ -4,9 +4,15 @@ default_view:
   icon: mdi:home
   entities:
     - group.weather
+    - group.steam
 
 weather:
   name: 'Väder'
   entities:
     - sensor.yr_symbol
     - sensor.yr_temperature
+
+steam:
+  name: 'Steam'
+  entities:
+    - sensor.steam_account1
