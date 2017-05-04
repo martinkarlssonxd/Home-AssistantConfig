@@ -1,0 +1,3 @@
+- platform: cast
+  host: !secret chromecast_host
+  name: 'ChromeCast'

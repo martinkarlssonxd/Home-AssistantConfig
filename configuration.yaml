@@ -1,0 +1,73 @@
+homeassistant:
+  name: Home
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  elevation: !secret home_elevation
+  unit_system: metric
+  time_zone: Europe/Stockholm
+  customize: !include_dir_merge_named includes/customize
+  customize_domain: {}
+  customize_glob: {}
+
+http:
+  api_password: !secret http_password
+
+#----------------------------------------------
+# Enables
+#----------------------------------------------
+
+discovery:
+
+sun:
+
+updater:
+
+frontend:
+
+conversation:
+
+zeroconf:
+
+config:
+
+history:
+
+logbook:
+
+recorder:
+
+#----------------------------------------------
+# Includes
+#----------------------------------------------
+
+zone: !include_dir_merge_list includes/zone
+
+group: !include_dir_merge_named includes/group
+
+media_player: !include_dir_merge_list includes/media_player
+
+device_tracker: !include_dir_merge_list includes/device_tracker
+
+sensor: !include_dir_list includes/sensor
+
+automation: !include_dir_merge_list includes/automation
+
+notify: !include_dir_list includes/notify
+
+input_boolean: !include_dir_merge_named includes/input_boolean
+
+# input_select: !include_dir_merge_named  includes/input_select
+
+# input_slider: !include_dir_merge_named  includes/input_slider
+
+volvooncall: !include includes/volvooncall.yaml
+
+weblink: !include includes/weblink.yaml
+
+tts: !include includes/tts.yaml
+
+ios: !include includes/ios.yaml
+
+# tradfri: !include includes/tradfri.yaml
+
+# logger: !include includes/logger.yaml

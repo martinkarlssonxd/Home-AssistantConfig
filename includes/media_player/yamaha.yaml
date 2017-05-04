@@ -1,0 +1,8 @@
+- platform: yamaha
+  host: !secret yamaha_host
+  name: Yamaha
+  source_names:
+    HDMI1: 'AppleTv'
+    HDMI2: 'ChromeCast'
+    HDMI4: 'PS4'
+    AV1: 'SamsungTv'

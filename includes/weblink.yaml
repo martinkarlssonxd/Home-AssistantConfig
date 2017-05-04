@@ -1,0 +1,4 @@
+entities:
+  - name: 'Router'
+    url: !secret router_url
+    icon: mdi:router-wireless

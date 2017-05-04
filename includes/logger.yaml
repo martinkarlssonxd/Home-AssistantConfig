@@ -1,0 +1,3 @@
+  default: critical
+  logs:
+    homeassistant.components.http: warning

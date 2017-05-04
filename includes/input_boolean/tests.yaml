@@ -1,0 +1,9 @@
+send_push_to_martins_iphone:
+  name: 'Skicka push till Martins iPhone'
+  initial: off
+  icon: mdi:cellphone-iphone
+
+send_push_to_martins_ipad:
+  name: 'Skicka push till Martins iPad'
+  initial: off
+  icon: mdi:tablet-ipad

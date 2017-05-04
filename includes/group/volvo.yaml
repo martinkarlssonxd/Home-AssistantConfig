@@ -1,0 +1,28 @@
+volvo_view:
+  view: yes
+  name: 'VolvoOnCall'
+  icon: mdi:car
+  entities:
+    - group.volvooncall_sensors
+    - group.volvooncall_lock
+    - group.volvooncall_heater
+
+volvooncall_sensors:
+  name: 'Info'
+  entities:
+    - binary_sensor.v60_brake_fluid
+    - binary_sensor.v60_bulbs
+    - binary_sensor.v60_doors
+    - binary_sensor.v60_service
+    - binary_sensor.v60_washer_fluid
+    - binary_sensor.v60_windows
+
+volvooncall_lock:
+  name: 'Lås'
+  entities:
+    - lock.v60_lock
+
+volvooncall_heater:
+  name: 'Dieselvärmare'
+  entities:
+    - switch.v60_heater

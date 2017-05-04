@@ -1,0 +1,4 @@
+device_tracker.martins_iphone:
+  friendly_name: 'Martins iPhone'
+device_tracker.martins_ipad:
+  friendly_name: 'Martins iPad'

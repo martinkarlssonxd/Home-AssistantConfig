@@ -1,0 +1,7 @@
+- platform: asuswrt
+  host: !secret asus_router_host
+  username: !secret asus_router_username
+  password: !secret asus_router_password
+  mode: router
+  protocol: !secret asus_router_protocol
+  port: !secret asus_router_port

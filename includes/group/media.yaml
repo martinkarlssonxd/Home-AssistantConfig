@@ -1,0 +1,29 @@
+media_view:
+  view: yes
+  name: 'Media'
+  icon: mdi:television-guide
+  entities:
+    - group.media_spotify
+    - group.media_yamaha
+    - group.media_chromecast
+    - group.media_appletv
+
+media_spotify:
+  name: 'Spotify'
+  entities:
+    - media_player.spotify
+
+media_yamaha:
+  name: 'Yamaha'
+  entities:
+    - media_player.yamaha
+
+media_chromecast:
+  name: 'Chromecast'
+  entities:
+    - media_player.martinchromecast
+
+media_appletv:
+  name: 'Apple TV'
+  entities:
+    - media_player.appletv

@@ -1,0 +1,16 @@
+- alias: Notify iOS app
+  trigger:
+    platform: event
+    event_type: ios.notification_action_fired
+    event_data:
+      actionName: SOUND_ALARM
+  action:
+    service: notify.martins_iphone
+    data:
+      message: "Something happened at home!"
+      data:
+        push:
+          badge: 5
+          category: "ALARM"
+        action_data:
+          entity_id: media_player.spotify

@@ -1,0 +1,12 @@
+config_view:
+  view: yes
+  name: 'Config'
+  icon: mdi:settings
+  entities:
+    - group.automation_test
+
+automation_test:
+  name: 'Automation test'
+  entities:
+    - input_boolean.send_push_to_martins_iphone
+    - input_boolean.send_push_to_martins_ipad

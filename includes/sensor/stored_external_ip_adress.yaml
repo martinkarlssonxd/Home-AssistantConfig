@@ -1,0 +1,3 @@
+platform: command_line
+name: 'stored_external_ip_adress'
+command: "cat /home/pi/perl-scripts/db/ip.dat"

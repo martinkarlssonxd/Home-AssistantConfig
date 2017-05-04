@@ -1,0 +1,18 @@
+sensor.yr_symbol:
+  friendly_name: 'Väder'
+sensor.yr_temperature:
+  friendly_name: 'Grader'
+sensor.martins_iphone_battery_level:
+  friendly_name: 'Martins iPhone batt'
+sensor.martins_iphone_battery_state:
+  friendly_name: 'Martins iPhone kabel'
+sensor.piuptime:
+  friendly_name: 'Pi update'
+sensor.stored_external_ip_adress:
+  friendly_name: 'Sparad IP-adress (externt)'
+sensor.current_external_ip_adress:
+  friendly_name: 'Nuvarande IP-adress (externt)'
+sensor.current_ha_version:
+  friendly_name: 'Senaste HA version'
+sensor.installed_ha_version:
+  friendly_name: 'Installerad HA version'
