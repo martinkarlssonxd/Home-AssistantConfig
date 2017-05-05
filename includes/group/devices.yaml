@@ -4,6 +4,8 @@ devices_view:
   icon: mdi:format-list-bulleted
   entities:
     - group.devices
+    - group.battery_levels
+    - group.charging
 
 devices:
   name: 'Enheter'
@@ -11,3 +13,16 @@ devices:
     - device_tracker.volvo_mfx897
     - device_tracker.martins_iphone
     - device_tracker.martins_ipad
+    - device_tracker.askassiphone
+
+battery_levels:
+  name: 'Batterinivåer'
+  entities:
+    - sensor.martins_iphone_battery_level
+    - sensor.martins_ipad_battery_level
+
+charging:
+  name: 'Laddas'
+  entities:
+    - sensor.martins_iphone_battery_level
+    - sensor.martins_ipad_battery_state

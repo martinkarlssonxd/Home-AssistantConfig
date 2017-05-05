@@ -8,11 +8,14 @@ system_view:
     - group.system_network
     - group.system_monitor
     - group.system_version
+    - group.system_units
 
 system_links:
   name: 'Länkar'
   entities:
     - weblink.router
+    - weblink.github_ha_config
+    - weblink.travis_ci
 
 system_monitor:
   name: 'Monitor'
@@ -45,3 +48,16 @@ system_version:
   entities:
     - sensor.current_ha_version
     - sensor.installed_ha_version
+
+system_units:
+  name: 'Enheter'
+  entities:
+    - sensor.askassiphone
+    - sensor.martinappletv
+    - sensor.martins_ipad
+    - sensor.martins_iphone
+    - sensor.martinsmbp2
+    - sensor.martinyamaha
+    - sensor.pepplanx
+    - sensor.ps4
+    - sensor.samsungtv

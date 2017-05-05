@@ -1,0 +1,29 @@
+- platform: google_travel_time
+  name: 'Telefon till hemmet'
+  api_key: !secret google_api_key
+  origin: device_tracker.martins_iphone
+  destination: zone.home
+
+- platform: google_travel_time
+  name: 'Bil till hemmet'
+  api_key: !secret google_api_key
+  origin: device_tracker.volvo_mfx897
+  destination: zone.home
+  options:
+    mode: driving
+
+- platform: google_travel_time
+  name: 'Telefon till jobbet'
+  api_key: !secret google_api_key
+  origin: device_tracker.martins_iphone
+  destination: zone.askas
+  options:
+    mode: driving
+
+- platform: google_travel_time
+  name: 'Bil till jobbet'
+  api_key: !secret google_api_key
+  origin: device_tracker.volvo_mfx897
+  destination: zone.askas
+  options:
+    mode: driving

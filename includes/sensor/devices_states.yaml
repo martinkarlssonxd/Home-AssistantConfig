@@ -25,7 +25,7 @@
         value_template: "{{ 'Online' if is_state('device_tracker.martinappletv', 'home') else 'Offline' }}"
 
       askassiphone:
-        friendly_name: 'Work Phone'
+        friendly_name: 'Askås iPhone'
         value_template: "{{ 'Online' if is_state('device_tracker.askassiphone', 'home') else 'Offline' }}"
 
       ps4:

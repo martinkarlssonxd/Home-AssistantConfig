@@ -12,7 +12,6 @@ tts
 secrets.yaml
 known_devices.yaml
 *.conf
-.HA_VERSION
 .spotify-token-cache
 .uuid
 .DS_Store

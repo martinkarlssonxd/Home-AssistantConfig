@@ -16,6 +16,10 @@ volvooncall_sensors:
     - binary_sensor.v60_service
     - binary_sensor.v60_washer_fluid
     - binary_sensor.v60_windows
+    - sensor.v60_fuel
+    - sensor.v60_fuel_2
+    - sensor.v60_odometer
+    - sensor.v60_range
 
 volvooncall_lock:
   name: 'Lås'
