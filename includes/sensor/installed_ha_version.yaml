@@ -1,4 +1,4 @@
-platform: command_line
-name: 'Installed HA version'
-command: "/srv/homeassistant/bin/hass --version"
-scan_interval: 86400
+- platform: command_line
+  name: 'Installed HA version'
+  command: "/srv/homeassistant/bin/hass --version"
+  scan_interval: 86400

@@ -1,4 +1,4 @@
-platform: yr
-monitored_conditions:
-  - temperature
-  - symbol
+- platform: yr
+  monitored_conditions:
+    - temperature
+    - symbol

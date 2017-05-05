@@ -1,0 +1,37 @@
+- platform: template
+  sensors:
+      martins_iphone:
+        friendly_name: 'Martins iPhone'
+        value_template: "{{ 'Online' if is_state('device_tracker.martins_iphone', 'home') else 'Offline' }}"
+
+      martins_ipad:
+        friendly_name: 'Martins iPad'
+        value_template: "{{ 'Online' if is_state('device_tracker.martins_ipad', 'home') else 'Offline' }}"
+
+      samsungtv:
+        friendly_name: 'Samsung TV'
+        value_template: "{{ 'Online' if is_state('device_tracker.c4576e1b631a', 'home') else 'Offline' }}"
+
+      pepplanx:
+        friendly_name: 'Gaming PC'
+        value_template: "{{ 'Online' if is_state('device_tracker.pepplanx', 'home') else 'Offline' }}"
+
+      martinsmbp2:
+        friendly_name: 'Macbook Pro'
+        value_template: "{{ 'Online' if is_state('device_tracker.martinsmbp2', 'home') else 'Offline' }}"
+
+      martinappletv:
+        friendly_name: 'Apple TV'
+        value_template: "{{ 'Online' if is_state('device_tracker.martinappletv', 'home') else 'Offline' }}"
+
+      askassiphone:
+        friendly_name: 'Work Phone'
+        value_template: "{{ 'Online' if is_state('device_tracker.askassiphone', 'home') else 'Offline' }}"
+
+      ps4:
+        friendly_name: 'PS4'
+        value_template: "{{ 'Online' if is_state('device_tracker.709e29cf782f', 'home') else 'Offline' }}"
+
+      martinyamaha:
+        friendly_name: 'Yamaha Receiver'
+        value_template: "{{ 'Online' if is_state('device_tracker.martinyamaha', 'home') else 'Offline' }}"

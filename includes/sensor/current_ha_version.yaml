@@ -1,4 +1,4 @@
-platform: rest
-resource: https://pypi.python.org/pypi/homeassistant/json
-name: 'Current HA version'
-value_template: '{{ value_json.info.version }}'
+- platform: rest
+  resource: https://pypi.python.org/pypi/homeassistant/json
+  name: 'Current HA version'
+  value_template: '{{ value_json.info.version }}'
