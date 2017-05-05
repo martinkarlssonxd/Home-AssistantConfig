@@ -36,6 +36,6 @@ media_samsungtv:
     - media_player.samsung
 
 media_plex:
-  name: 'Samsung TV'
+  name: 'Plex'
   entities:
     - media_player.plex_ua6nkgepmnrvn29
