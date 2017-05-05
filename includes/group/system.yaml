@@ -7,6 +7,7 @@ system_view:
     - group.system_info
     - group.system_network
     - group.system_monitor
+    - group.system_version
 
 system_links:
   name: 'Länkar'
@@ -20,6 +21,8 @@ system_monitor:
     - sensor.cpu_use
     - sensor.disk_use_
     - sensor.ram_free
+    - sensor.last_boot
+    - sensor.pi_uptime
 
 system_network:
   name: 'Nätverk'
@@ -35,8 +38,10 @@ system_network:
 system_info:
   name: 'Info'
   entities:
+    - sensor.plex
+
+system_version:
+  name: 'Version'
+  entities:
     - sensor.current_ha_version
     - sensor.installed_ha_version
-    - sensor.last_boot
-    - sensor.piuptime
-    - sensor.plex

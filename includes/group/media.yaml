@@ -7,6 +7,8 @@ media_view:
     - group.media_yamaha
     - group.media_chromecast
     - group.media_appletv
+    - group.media_samsungtv
+    - group.media_plex
 
 media_spotify:
   name: 'Spotify'
@@ -27,3 +29,13 @@ media_appletv:
   name: 'Apple TV'
   entities:
     - media_player.appletv
+
+media_samsungtv:
+  name: 'Samsung TV'
+  entities:
+    - media_player.samsung
+
+media_samsungtv:
+  name: 'Samsung TV'
+  entities:
+    - media_player.plex_ua6nkgepmnrvn29

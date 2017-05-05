@@ -2,3 +2,9 @@ entities:
   - name: 'Router'
     url: !secret router_url
     icon: mdi:router-wireless
+  - name: 'Github (ha config)'
+    url: 'https://github.com/martinkarlssonxd/Home-AssistantConfig'
+    icon: mdi:github-face
+  - name: 'Travis CI'
+    url: 'https://travis-ci.org/martinkarlssonxd/Home-AssistantConfig'
+    icon: mdi:code-braces
