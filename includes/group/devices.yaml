@@ -24,5 +24,5 @@ battery_levels:
 charging:
   name: 'Laddas'
   entities:
-    - sensor.martins_iphone_battery_level
+    - sensor.martins_iphone_battery_state
     - sensor.martins_ipad_battery_state
