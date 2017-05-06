@@ -1,0 +1,25 @@
+- platform: template
+  sensors:
+      v60_brake_fluid:
+        friendly_name: 'Bromsvätska'
+        value_template: "{{ 'Ok' if is_state('binary_sensor.v60_brake_fluid', 'off') else 'Åtgärda' }}"
+
+      v60_bulbs:
+        friendly_name: 'Lampor'
+        value_template: "{{ 'Ok' if is_state('binary_sensor.v60_bulbs', 'off') else 'Åtgärda' }}"
+
+      v60_service:
+        friendly_name: 'Service'
+        value_template: "{{ 'Ok' if is_state('binary_sensor.v60_service', 'off') else 'Åtgärda' }}"
+
+      v60_washer_fluid:
+        friendly_name: 'Spolarvätska'
+        value_template: "{{ 'Ok' if is_state('binary_sensor.v60_washer_fluid', 'off') else 'Åtgärda' }}"
+
+      v60_doors:
+        friendly_name: 'Dörrar'
+        value_template: "{{ 'Låst' if is_state('binary_sensor.v60_doors', 'off') else 'Öppen' }}"
+
+      v60_windows:
+        friendly_name: 'Fönster'
+        value_template: "{{ 'Stängda' if is_state('binary_sensor.v60_windows', 'off') else 'Öppna' }}"

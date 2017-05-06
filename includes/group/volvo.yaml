@@ -3,19 +3,29 @@ volvo_view:
   name: 'VolvoOnCall'
   icon: mdi:car
   entities:
-    - group.volvooncall_sensors
+    - group.volvooncall_warnings
+    - group.volvooncall_status
+    - group.volvooncall_dashboard
     - group.volvooncall_lock
     - group.volvooncall_heater
 
-volvooncall_sensors:
-  name: 'Info'
+volvooncall_warnings:
+  name: 'Varningar'
   entities:
-    - binary_sensor.v60_brake_fluid
-    - binary_sensor.v60_bulbs
-    - binary_sensor.v60_doors
-    - binary_sensor.v60_service
-    - binary_sensor.v60_washer_fluid
-    - binary_sensor.v60_windows
+    - sensor.v60_brake_fluid
+    - sensor.v60_bulbs
+    - sensor.v60_service
+    - sensor.v60_washer_fluid
+
+volvooncall_status:
+  name: 'Status'
+  entities:
+    - sensor.v60_doors
+    - sensor.v60_windows
+
+volvooncall_dashboard:
+  name: 'Instrumentpanel'
+  entities:
     - sensor.v60_fuel
     - sensor.v60_fuel_2
     - sensor.v60_odometer
@@ -27,6 +37,6 @@ volvooncall_lock:
     - lock.v60_lock
 
 volvooncall_heater:
-  name: 'Dieselvärmare'
+  name: 'Parkeringsvärmare'
   entities:
     - switch.v60_heater
