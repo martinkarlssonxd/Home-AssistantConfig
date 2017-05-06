@@ -33,7 +33,7 @@ media_appletv:
 media_samsungtv:
   name: 'Samsung TV'
   entities:
-    - media_player.samsung
+    - media_player.samsungtv
 
 media_plex:
   name: 'Plex'
