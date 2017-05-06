@@ -16,3 +16,5 @@ sensor.current_ha_version:
   friendly_name: 'Senaste HA version'
 sensor.installed_ha_version:
   friendly_name: 'Installerad HA version'
+sensor.cert_expiry:
+  friendly_name: 'SSL förfaller'

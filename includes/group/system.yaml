@@ -42,6 +42,7 @@ system_info:
   name: 'Info'
   entities:
     - sensor.plex
+    - sensor.cert_expiry
 
 system_version:
   name: 'Version'
