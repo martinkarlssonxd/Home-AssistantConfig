@@ -1,6 +1,6 @@
-volvo_view:
+volvooncall_view:
   view: yes
-  name: 'VolvoOnCall'
+  name: 'Volvo on call'
   icon: mdi:car
   entities:
     - group.volvooncall_warnings

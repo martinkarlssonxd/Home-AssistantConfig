@@ -39,7 +39,7 @@ sensor: !include_dir_merge_list includes/sensor
 # remote: !include_dir_merge_list includes/remote
 # switch: !include_dir_merge_list includes/switch
 automation: !include_dir_merge_list includes/automation
-notify: !include_dir_list includes/notify
+notify: !include_dir_merge_list includes/notify
 input_boolean: !include_dir_merge_named includes/input_boolean
 # input_select: !include_dir_merge_named  includes/input_select
 # input_slider: !include_dir_merge_named  includes/input_slider
