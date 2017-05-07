@@ -3,14 +3,12 @@
     platform: event
     event_type: ios.notification_action_fired
     event_data:
-      actionName: SOUND_ALARM
+      actionName: SILENCE_ALARM
+  condition:
+    condition: state
+    entity_id: input_boolean.send_push_to_martins_iphone
+    state: 'on'
   action:
-    service: notify.martins_iphone
+    service: notify.ios_martins_iphone
     data:
-      message: "Something happened at home!"
-      data:
-        push:
-          badge: 5
-          category: "ALARM"
-        action_data:
-          entity_id: media_player.spotify
+      message: "Testar notifiering via state på boolean"
