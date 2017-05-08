@@ -1,9 +1,8 @@
 - alias: Notify iOS app
   trigger:
-    platform: event
-    event_type: ios.notification_action_fired
-    event_data:
-      actionName: SILENCE_ALARM
+    platform: state
+    entity_id: device_tracker.martins_iphone
+    state: 'home'
   condition:
     condition: state
     entity_id: input_boolean.send_push_to_martins_iphone
