@@ -35,3 +35,7 @@
       martinyamaha:
         friendly_name: 'Yamaha Receiver'
         value_template: "{{ 'Online' if is_state('device_tracker.martinyamaha', 'home') else 'Offline' }}"
+
+      raspberrypi:
+        friendly_name: 'HA Proxy / web server'
+        value_template: "{{ 'Online' if is_state('device_tracker.raspberrypi', 'home') else 'Offline' }}"
