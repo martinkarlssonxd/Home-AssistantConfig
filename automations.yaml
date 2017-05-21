@@ -1,0 +1,14 @@
+- id: push_welcome_home_to_martins_ihpone
+  alias: 'Välkommen hem, Martin'
+  trigger:
+  - entity_id: sensor.martins_iphone
+    platform: state
+    state: 'Online'
+  condition:
+  - entity_id: input_boolean.send_push_to_martins_iphone
+    condition: state
+    state: 'on'
+  action:
+  - service: notify.ios_martins_iphone
+    data:
+      message: "Välkommen hem"

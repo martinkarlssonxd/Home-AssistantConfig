@@ -38,11 +38,11 @@ device_tracker: !include_dir_merge_list includes/device_tracker
 sensor: !include_dir_merge_list includes/sensor
 # remote: !include_dir_merge_list includes/remote
 # switch: !include_dir_merge_list includes/switch
-automation: !include_dir_merge_list includes/automation
 notify: !include_dir_merge_list includes/notify
 input_boolean: !include_dir_merge_named includes/input_boolean
 # input_select: !include_dir_merge_named  includes/input_select
 # input_slider: !include_dir_merge_named  includes/input_slider
+automation: !include automations.yaml
 volvooncall: !include includes/volvooncall.yaml
 weblink: !include includes/weblink.yaml
 tts: !include includes/tts.yaml
