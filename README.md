@@ -25,7 +25,7 @@ My [Home Assistant](https://home-assistant.io/) configuration files.
 
 **TODO**
 
-All my todos regarding software and/or hardware will be listed as issues [here](/martinkarlssonxd/Home-AssistantConfig/issues)
+All my todos regarding software and/or hardware will be listed as issues [here](https://github.com/martinkarlssonxd/Home-AssistantConfig/issues).
 
 **Current setup**
 
