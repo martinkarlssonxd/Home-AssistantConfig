@@ -5,6 +5,7 @@ default_view:
   entities:
     - group.weather
     - group.lights
+    - group.light_brightness
     - group.steam
 
 weather:
@@ -18,6 +19,12 @@ lights:
   entities:
     - light.kok
     - light.sovrum
+
+light_brightness:
+  name: 'Ljusstyrka'
+  entities:
+    - input_slider.kitchen_brightness
+    - input_slider.bedroom_brightness
 
 steam:
   name: 'Steam'

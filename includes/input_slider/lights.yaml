@@ -1,0 +1,13 @@
+bedroom_brightness:
+  name: 'Ljusstyrka'
+  initial: 30
+  min: 0
+  max: 254
+  step: 1
+
+kitchen_brightness:
+  name: 'Ljusstyrka'
+  initial: 30
+  min: 0
+  max: 254
+  step: 1
