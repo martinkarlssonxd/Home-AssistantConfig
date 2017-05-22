@@ -6,7 +6,7 @@ bedroom_brightness:
   step: 1
 
 kitchen_brightness:
-  name: 'Kök'
+  name: 'KÃ¶k'
   initial: 30
   min: 0
   max: 254

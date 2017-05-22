@@ -63,3 +63,4 @@ system_units:
     - sensor.ps4
     - sensor.samsungtv
     - sensor.raspberrypi
+    - sensor.tradfri_hub
