@@ -47,5 +47,5 @@ volvooncall: !include includes/volvooncall.yaml
 weblink: !include includes/weblink.yaml
 tts: !include includes/tts.yaml
 ios: !include includes/ios.yaml
-# tradfri: !include includes/tradfri.yaml
+tradfri: !include includes/tradfri.yaml
 # logger: !include includes/logger.yaml
