@@ -4,6 +4,7 @@ default_view:
   icon: mdi:home
   entities:
     - group.weather
+    - group.lights
     - group.steam
 
 weather:
@@ -11,6 +12,12 @@ weather:
   entities:
     - sensor.yr_symbol
     - sensor.yr_temperature
+
+lights:
+  name: 'Lampor'
+  entities:
+    - light.kok
+    - light.sovrum
 
 steam:
   name: 'Steam'

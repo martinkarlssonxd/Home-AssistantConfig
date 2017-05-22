@@ -39,3 +39,7 @@
       raspberrypi:
         friendly_name: 'HA Proxy / web server'
         value_template: "{{ 'Online' if is_state('device_tracker.raspberrypi', 'home') else 'Offline' }}"
+
+      tradfri_hub:
+        friendly_name: 'IKEA Trådfri Hub'
+        value_template: "{{ 'Online' if is_state('device_tracker.gwa0cc2b6d673b', 'home') else 'Offline' }}"
