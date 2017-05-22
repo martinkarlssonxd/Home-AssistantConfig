@@ -18,3 +18,4 @@ known_devices.yaml
 .uuid
 .DS_Store
 !/.gitignore
+libcoap
