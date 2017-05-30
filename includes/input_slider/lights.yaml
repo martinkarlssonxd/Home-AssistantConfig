@@ -2,12 +2,12 @@ bedroom_brightness:
   name: 'Sovrum'
   initial: 30
   min: 0
-  max: 254
+  max: 255
   step: 1
 
 kitchen_brightness:
   name: 'Kök'
   initial: 30
   min: 0
-  max: 254
+  max: 255
   step: 1
