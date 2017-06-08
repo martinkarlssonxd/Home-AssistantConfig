@@ -43,3 +43,7 @@
       tradfri_hub:
         friendly_name: 'IKEA Trådfri Hub'
         value_template: "{{ 'Online' if is_state('device_tracker.gwa0cc2b6d673b', 'home') else 'Offline' }}"
+
+      harmonyhub:
+        friendly_name: 'Harmony Hub'
+        value_template: "{{ 'Online' if is_state('device_tracker.harmonyhub', 'home') else 'Offline' }}"
