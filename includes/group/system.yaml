@@ -64,3 +64,4 @@ system_units:
     - sensor.samsungtv
     - sensor.raspberrypi
     - sensor.tradfri_hub
+    - sensor.harmonyhub
